@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Attendance Management</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/scripts.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Dashboard</h1>
+    <nav>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="attendance-summary">
+      <h2>Attendance Summary</h2>
+      <div class="summary-card">
+        <h3>Total Classes: <span id="total-classes">0</span></h3>
+        <h3>Total Present: <span id="total-present">0</span></h3>
+        <h3>Total Absent: <span id="total-absent">0</span></h3>
+      </div>
+    </section>
+
+    <section class="attendance-history">
+      <h2>Attendance History</h2>
+      <table id="attendance-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Attendance records will be populated here -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

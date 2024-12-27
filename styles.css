@@ -1,0 +1,59 @@
+/* Simple styles for the dashboard */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #231717;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: rgb(11, 10, 10);
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .attendance-summary {
+    margin-bottom: 30px;
+  }
+  
+  .summary-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summary-card h3 {
+    margin: 10px 0;
+  }
+  
+  .attendance-history table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .attendance-history th,
+  .attendance-history td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .attendance-history th {
+    background-color: #333;
+    color: white;
+  }
+  
